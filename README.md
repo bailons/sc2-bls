@@ -1,2 +1,2 @@
 # sc2-bls
-#spring cloud config
+spring cloud config
