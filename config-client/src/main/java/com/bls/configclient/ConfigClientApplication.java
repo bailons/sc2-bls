@@ -17,6 +17,7 @@ public class ConfigClientApplication {
     @Value("${foo}")
     String foo;
     @RequestMapping(value = "/hi")
+    //config-client从config-server获取了foo的属性，而config-server是从git仓库读取的
     public String hi(){
         return foo;
     }
