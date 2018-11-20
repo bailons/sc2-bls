@@ -1,0 +1,1601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74a4e110-9a1d-4937-923f-fe47169b58f8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../sc-bls/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-client/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-client/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-client/src/main/java/com/bls/eurekaclient/EurekaClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-client/src/test/java/com/bls/eurekaclient/EurekaClientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-server/src/main/java/com/bls/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/eureka-server/src/test/java/com/bls/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc-bls/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/bootdo(如果报错请执行这个兼容版本).sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/bootdo.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/BootdoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/config/ActivitiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/config/ActivitiConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/controller/ModelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/controller/ProcessController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/controller/SalaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/controller/TaskController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/dao/SalaryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/domain/ActivitiDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/domain/SalaryDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/domain/TaskDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/domain/Variable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/service/ActTaskService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/service/ProcessService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/service/SalaryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/service/impl/ActTaskServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/service/impl/ProcessServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/service/impl/SalaryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/utils/ActivitiUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/vo/DeploymentResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/vo/ProcessVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/activiti/vo/TaskVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/blog/controller/BlogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/blog/controller/ContentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/blog/dao/ContentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/blog/domain/ContentDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/blog/service/ContentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/blog/service/impl/ContentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/annotation/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/aspect/LogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/aspect/WebLogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/config/ApplicationContextRegister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/config/BootdoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/config/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/config/DateConverConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/config/DruidDBConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/config/QuartzConfigration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/config/SecuityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/config/SpringAsyncConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/config/SpringBootSampleApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/config/WebConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/controller/BaseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/controller/DictController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/controller/FileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/controller/GeneratorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/controller/JobController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/controller/LogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/dao/DictDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/dao/FileDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/dao/GeneratorMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/dao/LogDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/dao/TaskDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/domain/ColumnDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/domain/DictDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/domain/FileDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/domain/LogDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/domain/PageDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/domain/ScheduleJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/domain/TableDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/domain/TaskDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/domain/Tree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/exception/BDException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/exception/BDExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/exception/MainsiteErrorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/listenner/ScheduleJobInitListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/quartz/factory/JobFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/quartz/utils/QuartzManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/redis/shiro/RedisCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/redis/shiro/RedisCacheManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/redis/shiro/RedisManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/redis/shiro/RedisSessionDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/redis/shiro/SerializeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/service/DictService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/service/FileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/service/GeneratorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/service/JobService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/service/LogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/service/impl/DictServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/service/impl/FileServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/service/impl/GeneratorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/service/impl/JobServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/service/impl/LogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/task/WelcomeJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/BDException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/Base64Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/BuildTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/ExceptionUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/FileType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/GenUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/HttpContextUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/HttpServletUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/IPUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/ImageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/JSONUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/MD5Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/PageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/ScheduleJobUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/ShiroUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/SpringContextHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/TimeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/UploadUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/common/utils/xss/JsoupUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/oa/config/WebSocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/oa/controller/NotifyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/oa/controller/WebSocketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/oa/dao/NotifyDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/oa/dao/NotifyRecordDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/oa/domain/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/oa/domain/NotifyDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/oa/domain/NotifyDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/oa/domain/NotifyRecordDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/oa/domain/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/oa/service/NotifyRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/oa/service/NotifyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/oa/service/impl/NotifyRecordServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/oa/service/impl/NotifyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/config/BDSessionListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/config/ShiroConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/config/Swagger2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/config/XssConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/controller/DeptController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/controller/MenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/controller/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/controller/SessionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/dao/DeptDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/dao/MenuDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/dao/RoleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/dao/RoleMenuDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/dao/UserRoleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/domain/DeptDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/domain/MenuDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/domain/RoleDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/domain/RoleMenuDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/domain/UserDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/domain/UserOnline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/domain/UserRoleDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/domain/UserToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/filter/XssFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/filter/XssHttpServletRequestWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/service/DeptService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/service/MenuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/service/SessionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/service/impl/DeptServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/service/impl/MenuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/service/impl/RoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/service/impl/SessionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/shiro/UserRealm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/java/com/bootdo/system/vo/UserVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/application-pro.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/config/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/config/quartz.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/generator.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/mybatis/activiti/SalaryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/mybatis/blog/ContentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/mybatis/common/DictMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/mybatis/common/FileMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/mybatis/common/LogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/mybatis/common/TaskMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/mybatis/oa/NotifyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/mybatis/oa/NotifyRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/mybatis/system/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/mybatis/system/MenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/mybatis/system/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/mybatis/system/RoleMenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/mybatis/system/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/mybatis/system/UserRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/FontIcoList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/chart/graph_echarts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/breadcrumbs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/checker-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/deployer/blue/message_catch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/deployer/business_rule.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/deployer/error_catch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/deployer/error_throw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/deployer/manual.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/deployer/message_catch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/deployer/message_throw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/deployer/receive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/deployer/script.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/deployer/send.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/deployer/service.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/deployer/signal_catch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/deployer/signal_throw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/deployer/timer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/images/deployer/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/js/ActivitiRest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/js/ActivityImpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/js/Color.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/js/LineBreakMeasurer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/js/Polyline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/js/ProcessDiagramCanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/js/ProcessDiagramGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/js/jquery/jquery.asyncqueue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/js/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/js/jquery/jquery.progressbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/js/jstools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/js/raphael.2.1.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/js/raphael.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/js/raphael_uncompressed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/js/textlayout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/diagram-viewer/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/public/modeler.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/blog/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/blog/clean-blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/blog/clean-blog.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/bootstrap-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/demo/webuploader-demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/gg-bootdo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/patterns/header-profile-skin-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/patterns/header-profile-skin-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/patterns/header-profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/patterns/shattered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/blueimp/css/blueimp-gallery-indicator.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/blueimp/css/blueimp-gallery-video.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/blueimp/css/blueimp-gallery.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/blueimp/css/blueimp-gallery.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/blueimp/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/blueimp/img/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/blueimp/img/error.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/blueimp/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/blueimp/img/play-pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/blueimp/img/play-pause.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/blueimp/img/video-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/blueimp/img/video-play.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/bootstrap-table/bootstrap-table.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/chosen/chosen-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/chosen/chosen-sprite@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/chosen/chosen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/clockpicker/clockpicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/codemirror/ambiance.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/codemirror/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/cropper/cropper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/dataTables/dataTables.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/datapicker/datepicker3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/dropzone/basic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/dropzone/dropzone.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/duallistbox/bootstrap-duallistbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/footable/fonts/footable.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/footable/fonts/footable.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/footable/fonts/footable.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/footable/fonts/footable.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/footable/footable.core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/fullcalendar/fullcalendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/fullcalendar/fullcalendar.print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/iCheck/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/iCheck/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/iCheck/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/images/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/images/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/images/sprite-skin-flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/images/spritemap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/images/spritemap@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/ionRangeSlider/ion.rangeSlider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/jQueryUI/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/jQueryUI/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/jQueryUI/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/jasny/jasny-bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/jqTreeGrid/jquery.treegrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/jqgrid/ui.jqgrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/jsTree/32px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/jsTree/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/jsTree/throbber.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/markdown/bootstrap-markdown.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/morris/morris-0.4.3.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/multiselect/bootstrap-multiselect.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/nouslider/jquery.nouislider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/plyr/plyr.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/plyr/sprite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/simditor/simditor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/steps/jquery.steps.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/summernote/font/summernote.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/summernote/summernote-0.8.8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/summernote/summernote-bs3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/summernote/summernote.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/sweetalert/sweetalert.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/switchery/switchery.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/toastr/toastr.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/treeview/bootstrap-treeview.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/webuploader/webuploader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/zTree/awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/zTree/metroStyle/img/32px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/zTree/metroStyle/img/line_conn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/zTree/metroStyle/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/zTree/metroStyle/img/metro.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/zTree/metroStyle/img/metro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/plugins/zTree/metroStyle/metroStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/app-cfg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties-assignment-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties-condition-expression-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties-custom-controllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties-default-controllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties-event-listeners-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties-execution-listeners-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties-fields-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties-form-properties-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties-in-parameters-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties-message-definitions-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties-message-scope-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties-multiinstance-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties-out-parameters-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties-sequenceflow-order-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties-signal-definitions-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties-signal-scope-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties-task-listeners-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/assignment-display-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/assignment-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/assignment-write-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/boolean-property-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/condition-expression-display-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/condition-expression-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/condition-expression-write-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/default-value-display-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/event-listeners-display-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/event-listeners-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/event-listeners-write-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/execution-listeners-display-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/execution-listeners-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/execution-listeners-write-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/feedback-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/fields-display-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/fields-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/fields-write-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/form-properties-display-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/form-properties-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/form-properties-write-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/in-parameters-display-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/in-parameters-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/in-parameters-write-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/message-definitions-display-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/message-definitions-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/message-definitions-write-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/message-property-write-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/multiinstance-property-write-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/out-parameters-display-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/out-parameters-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/out-parameters-write-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/sequenceflow-order-display-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/sequenceflow-order-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/sequenceflow-order-write-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/signal-definitions-display-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/signal-definitions-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/signal-definitions-write-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/signal-property-write-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/string-property-write-mode-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/subprocess-reference-display-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/subprocess-reference-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/subprocess-reference-write-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/task-listeners-display-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/task-listeners-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/task-listeners-write-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/text-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/properties/text-property-write-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/toolbar-custom-actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/toolbar-default-actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/toolbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/configuration/url-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/css/style-common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/css/style-editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/editor-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/editor-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/editor-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/editor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/editor/css/editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/editor/i18n/translation_de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/editor/i18n/translation_en_us.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/editor/i18n/translation_signavio_de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/editor/i18n/translation_signavio_en_us.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/editor/oryx.debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/editor/oryx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/eventbus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/fonts/activiti-admin-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/fonts/activiti-admin-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/fonts/activiti-admin-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/fonts/activiti-admin-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/header-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/i18n/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/images/bpmn-error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/images/bpmn-warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/images/datadefinition.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/images/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/images/logo-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/images/nw-handle-dark.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/images/se-handle-dark.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/images/shapemenu_highlight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/images/wrench.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-dragdrop.min-1.0.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-dragdrop_1.0.7/angular-dragdrop.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-mocks_1.2.13/angular-mocks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-resource_1.2.13/angular-resource.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-route_1.2.13/angular-route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-route_1.2.13/angular-route.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-route_1.2.13/angular-route.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-scroll_0.5.7/angular-scroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-strap_2.0.5/angular-strap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-strap_2.0.5/angular-strap.tpl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-translate-loader-static-files/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-translate-storage-cookie/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-translate_2.4.2/angular-translate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular-translate_2.4.2/angular-translate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular_1.2.13/angular-animate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/angular_1.2.13/angular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker-bs3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/CHANGES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/CONTRIBUTORS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/es5-sham.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/es5-sham.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/es5-sham.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/es5-shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/es5-shim.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/es5-shim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-kill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-matchers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/index.min.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine-html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine_favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/json2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-function.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-number.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/jquery-ui-1.10.3.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/jquery.autogrow-textarea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/jquery_1.11.0/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/jquery_1.11.0/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/jquery_1.11.0/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/json3_3.2.6/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/json3_3.2.6/lib/json3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/json3_3.2.6/lib/json3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/momentjs_2.5.1/momentjs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/mousetrap-1.4.5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/ng-grid-2.0.7-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/ng-grid-2.0.7.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/path_parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/prototype-1.5.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/libs/ui-utils.min-0.0.4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/partials/root-stencil-item-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/partials/stencil-item-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/plugins.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/popups/icon-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/popups/save-model.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/popups/select-shape.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/popups/unsaved-changes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/select-shape-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencil-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.collapsed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/expanded.subprocess.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.business.rule.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.camel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.manual.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.mule.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.receive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.script.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.send.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.service.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.shell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/subprocess.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/task.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/artifact/text.annotation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/cancel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/compensation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/message.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/signal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/timer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/connector/association.undirected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/connector/association.unidirectional.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/connector/messageflow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/connector/sequenceflow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/dataobject/data.store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/endevent/cancel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/endevent/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/endevent/none.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/endevent/terminate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/gateway/eventbased.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/gateway/exclusive.databased.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/gateway/inclusive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/gateway/parallel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/startevent/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/startevent/message.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/startevent/none.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/startevent/signal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/startevent/timer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/swimlane/lane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/swimlane/pool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/throwing/none.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/throwing/signal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/editor-app/toolbar-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/a2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/a4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/a5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/a6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/a7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/a8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/a9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/backg01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/backg02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/background-login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/background_login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/blog/about-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/blog/contact-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/blog/home-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/blog/post-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/blog/post-sample-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/blog/qqbootdo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/browser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/browser.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/court.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/iconfont-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/index.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/index_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/loading-upload.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/locked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/login-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/p2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/p3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/p_big1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/p_big2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/p_big3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/photo_s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/post-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/profile_big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/profile_small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/qr_code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/sprite-skin-flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/webuploader.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/img/wenku_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/ajax-util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/act/SalaryAdjustment/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/act/model/add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/act/model/edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/act/model/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/act/process/add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/act/process/edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/act/process/process.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/act/salary/add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/act/salary/edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/act/salary/salary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/act/task/gotoTask.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/act/task/totoTask.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/blog/bComments/add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/blog/bComments/bComments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/blog/bContent/add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/blog/bContent/bContent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/blog/bContent/edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/blog/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/blog/clean-blog.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/blog/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/blog/tether.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/common/dict/add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/common/dict/dict.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/common/dict/edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/common/generator/edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/common/generator/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/common/job/add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/common/job/edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/common/job/job.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/common/log/log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/oa/notify/add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/oa/notify/edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/oa/notify/notify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/oa/notify/read.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/oa/notify/selfNotify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/oa/webSocket/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/oa/webSocket/sockjs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/oa/webSocket/stomp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/sys/menu/add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/sys/menu/edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/sys/menu/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/sys/online/online.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/sys/role/add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/sys/role/edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/sys/role/role.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/sys/user/add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/sys/user/edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/sys/user/gg-bootdo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/sys/user/personal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/sys/user/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/system/sysDept/add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/system/sysDept/edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/appjs/system/sysDept/sysDept.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/bootstrap-paginator.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/contabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/content.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/demo/bootstrap-table-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/demo/bootstrap_table_test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/demo/bootstrap_table_test2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/demo/echarts-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/demo/flot-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/demo/form-advanced-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/demo/form-validate-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/demo/layer-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/demo/morris-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/demo/peity-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/demo/photos.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/demo/rickshaw-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/demo/sparkline-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/demo/table_base.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/demo/treeview-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/demo/webuploader-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/jquery-ui-1.10.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/jquery-ui.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/all-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/mobile/layer-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/mobile/layim-mobile-open.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/mobile/upload-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/mobile/zepto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/beautifyhtml/beautifyhtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/blueimp/jquery.blueimp-gallery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/bootstrap-paginator.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/bootstrap-table/bootstrap-table.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/chartJs/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/chosen/chosen.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/clipboard/clipboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/clockpicker/clockpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/codemirror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/apl/apl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/apl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/asterisk/asterisk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/asterisk/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/clike/clike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/clike/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/clike/scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/clojure/clojure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/clojure/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/cobol/cobol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/cobol/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/coffeescript/coffeescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/coffeescript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/commonlisp/commonlisp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/commonlisp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/css/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/css/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/css/less.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/css/less_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/css/scss.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/css/scss_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/css/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/cypher/cypher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/cypher/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/d/d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/d/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/dart/dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/dart/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/diff/diff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/diff/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/django/django.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/django/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/dockerfile/dockerfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/dockerfile/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/dtd/dtd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/dtd/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/dylan/dylan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/dylan/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/ebnf/ebnf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/ebnf/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/ecl/ecl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/ecl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/eiffel/eiffel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/eiffel/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/erlang/erlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/erlang/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/fortran/fortran.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/fortran/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/gas/gas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/gas/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/gfm/gfm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/gfm/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/gfm/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/gherkin/gherkin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/gherkin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/go/go.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/go/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/groovy/groovy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/groovy/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/haml/haml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/haml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/haml/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/haskell/haskell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/haskell/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/haxe/haxe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/haxe/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/htmlembedded/htmlembedded.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/htmlembedded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/htmlmixed/htmlmixed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/htmlmixed/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/http/http.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/http/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/idl/idl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/idl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/jade/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/jade/jade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/javascript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/javascript/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/javascript/json-ld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/javascript/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/javascript/typescript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/jinja2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/jinja2/jinja2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/julia/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/julia/julia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/kotlin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/kotlin/kotlin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/livescript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/livescript/livescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/lua/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/lua/lua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/markdown/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/markdown/markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/markdown/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/meta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/mirc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/mirc/mirc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/mllike/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/mllike/mllike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/modelica/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/modelica/modelica.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/nginx/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/nginx/nginx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/ntriples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/ntriples/ntriples.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/octave/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/octave/octave.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/pascal/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/pascal/pascal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/pegjs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/pegjs/pegjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/perl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/perl/perl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/php/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/php/php.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/php/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/pig/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/pig/pig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/properties/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/properties/properties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/puppet/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/puppet/puppet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/python/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/python/python.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/q/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/q/q.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/r/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/r/r.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/rpm/changes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/rpm/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/rpm/rpm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/rst/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/rst/rst.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/ruby/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/ruby/ruby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/ruby/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/rust/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/rust/rust.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/sass/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/sass/sass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/scheme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/scheme/scheme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/shell/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/shell/shell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/shell/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/sieve/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/sieve/sieve.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/slim/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/slim/slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/slim/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/smalltalk/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/smalltalk/smalltalk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/smarty/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/smarty/smarty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/smartymixed/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/smartymixed/smartymixed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/solr/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/solr/solr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/soy/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/soy/soy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/sparql/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/sparql/sparql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/spreadsheet/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/spreadsheet/spreadsheet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/sql/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/sql/sql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/stex/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/stex/stex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/stex/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/tcl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/tcl/tcl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/textile/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/textile/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/textile/textile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/tiddlywiki/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/tiki/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/tiki/tiki.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/tiki/tiki.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/toml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/toml/toml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/tornado/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/tornado/tornado.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/turtle/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/turtle/turtle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/vb/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/vb/vb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/vbscript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/vbscript/vbscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/velocity/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/velocity/velocity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/verilog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/verilog/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/verilog/verilog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/xml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/xml/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/xml/xml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/xquery/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/xquery/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/xquery/xquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/yaml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/yaml/yaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/z80/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/codemirror/mode/z80/z80.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/colorpicker/bootstrap-colorpicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/cropper/cropper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/dataTables/dataTables.bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/dataTables/jquery.dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/datapicker/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/diff_match_patch/diff_match_patch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/distpicker/distpicker.data.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/distpicker/distpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/distpicker/distpicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/dropzone/dropzone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/duallistbox/jquery.bootstrap-duallistbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/easypiechart/jquery.easypiechart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/echarts/echarts-all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/fancybox/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/fancybox/fancybox_loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/fancybox/fancybox_loading@2x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/fancybox/fancybox_overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/fancybox/fancybox_sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/fancybox/fancybox_sprite@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/fancybox/jquery.fancybox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/fancybox/jquery.fancybox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/flot/curvedLines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/flot/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/flot/jquery.flot.pie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/flot/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/flot/jquery.flot.spline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/flot/jquery.flot.symbol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/flot/jquery.flot.tooltip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/footable/footable.all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/fullcalendar/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/fullcalendar/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/gritter/images/gritter-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/gritter/images/gritter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/gritter/images/ie-spacer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/gritter/jquery.gritter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/gritter/jquery.gritter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/iCheck/icheck.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/ionRangeSlider/jasny/jasny-bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/jasny/jasny-bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/jeditable/jquery.jeditable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/jqTreeGrid/jquery.treegrid.bootstrap3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/jqTreeGrid/jquery.treegrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/jqTreeGrid/jquery.treegrid.extension.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/jqTreeGrid/jquery.treegrid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/jqTreeGrid/jquery.treegrid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/jqTreeGrid/tree.table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/jqgrid/i18n/grid.locale-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/jqgrid/jquery.jqGrid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/jquery-ui/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/jsKnob/jquery.knob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/jsTree/jstree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/jsTree/jstree.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/extend/layer.ext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/laydate/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/laydate/need/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/laydate/skins/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/laydate/skins/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/layer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/layim/data/chatlog.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/layim/data/friend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/layim/data/group.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/layim/data/groups.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/layim/layim.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/layim/layim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/layim/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/mobile/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/mobile/need/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/skin/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/skin/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/skin/default/icon_ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/skin/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/skin/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/skin/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/skin/default/textbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/skin/default/xubox_ico0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/skin/default/xubox_loading0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/skin/default/xubox_loading1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/skin/default/xubox_loading2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/skin/default/xubox_loading3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/skin/default/xubox_title0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/skin/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/skin/layer.ext.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/skin/moon/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/skin/moon/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/theme/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/theme/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/theme/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/theme/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/theme/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/layer/theme/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/markdown/bootstrap-markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/markdown/bootstrap-markdown.zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/markdown/markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/markdown/to-markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/metisMenu/jquery.metisMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/morris/morris.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/morris/raphael-2.1.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/multiselect/bootstrap-multiselect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/nestable/jquery.nestable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/nouslider/jquery.nouislider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/pace/pace.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/peity/jquery.peity.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/plyr/plyr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/prettyfile/bootstrap-prettyfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/rickshaw/rickshaw.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/rickshaw/vendor/d3.v3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/simditor/hotkeys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/simditor/hotkeys.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/simditor/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/simditor/module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/simditor/module.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/simditor/simditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/simditor/simditor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/simditor/uploader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/simditor/uploader.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/slimscroll/jquery.slimscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/sparkline/jquery.sparkline.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/staps/jquery.steps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/suggest/bootstrap-suggest.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/suggest/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/summernote/summernote-zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/summernote/summernote-zh-CN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/summernote/summernote.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/summernote/summernote.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/sweetalert/sweetalert.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/switchery/switchery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/toastr/toastr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/treeview/bootstrap-treeview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/validate/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/validate/jquery.validate.extend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/validate/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/validate/messages_zh.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/Uploader.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/webuploader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/webuploader.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/webuploader.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/webuploader.fis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/webuploader.flashonly.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/webuploader.flashonly.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/webuploader.html5only.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/webuploader.html5only.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/webuploader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/webuploader.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/webuploader.noimage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/webuploader.noimage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/webuploader.nolog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/webuploader.nolog.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/webuploader.withoutimage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/webuploader/webuploader.withoutimage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/zTree/jquery.ztree.all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/plugins/zTree/jquery.ztree.core.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/vue.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/static/js/welcome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/stencilset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/act/model/model.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/act/modeler.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/act/process/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/act/process/process.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/act/salary/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/act/salary/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/act/salary/start.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/act/task/gotoTask.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/act/task/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/act/task/todoTask.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/blog/bContent/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/blog/bContent/bContent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/blog/bContent/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/blog/bcomments/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/blog/bcomments/bComments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/blog/index/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/blog/index/include_blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/blog/index/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/blog/index/page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/blog/index/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/dict/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/dict/dict.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/dict/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/file/file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/generator/Controller.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/generator/Dao.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/generator/Mapper.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/generator/Mapper.xml.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/generator/Service.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/generator/ServiceImpl.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/generator/add.html.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/generator/add.js.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/generator/domain.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/generator/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/generator/edit.html.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/generator/edit.js.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/generator/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/generator/list.html.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/generator/list.js.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/generator/menu.sql.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/job/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/job/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/job/job.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/common/log/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/error/403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/error/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/error/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/error/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/include.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/index_v1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/oa/notify/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/oa/notify/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/oa/notify/notify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/oa/notify/read.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/oa/notify/selfNotify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/dept/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/dept/dept.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/dept/deptTree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/dept/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/menu/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/menu/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/menu/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/online/online.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/role/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/role/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/role/role.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/user/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/user/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/user/include.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/user/personal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/user/reset_pwd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/user/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/main/resources/templates/system/user/userTree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootdo/src/test/java/com/bootdo/testDemo/TestDemo.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/config-client/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>RunDashboard</find>
+      <find>Run</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/config-server/src/main/java/com/bls/configserver/ConfigServerApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/config-client/src/main/java/com/bls/configclient/ConfigClientApplication.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="264" />
+    <option name="y" value="46" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sc2bls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc2bls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc2bls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc2bls" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc2bls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc2bls" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc2bls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc2bls" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc2bls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc2bls" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc2bls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc2bls" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc2bls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc2bls" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="configclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc2bls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc2bls" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc2bls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc2bls" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc2bls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc2bls" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc2bls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc2bls" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc2bls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc2bls" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc2bls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc2bls" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="configserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.1595457" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bls.configclient.ConfigClientApplication" />
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bls.configserver.ConfigServerApplication" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.29978356" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run Dashboard" order="7" sideWeight="0.49946696" weight="0.35281384" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.39069265" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23351352" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/bls/configclient/ConfigClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/bls/configserver/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="1346" column="13" lean-forward="true" selection-start-line="1346" selection-start-column="13" selection-end-line="1346" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
